@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div class="nav">
+<?php foreach ($navigation as $key => $value) { ?>
+	 <a class="<?= $key; ?>" href="<?= $value['href']; ?>"><?= $value['text']; ?></a>
+<?php } ?>
+</div>

@@ -1,0 +1,20 @@
+<form action="">
+<p>
+<label>Username:</label>					
+<input type="text" autofocus id="Username" name="Username"/>
+</p>
+<p>
+<label>email:</label>
+<input type="email" name="email" id="email" required="required"/>
+</p>
+<p>
+<label>Password:</label>
+<input type="password" name="password" />
+</p>
+<p>
+<label>Confirm Password:</label>
+<input type="password" name="password2" />
+</p>
+			
+<input type="submit" class="button" id="submit" value="Create an account"/>
+</form>

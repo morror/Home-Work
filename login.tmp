@@ -1,0 +1,12 @@
+<form action="javascript:void(0);">
+<p>
+<label>email:</label>
+<input type="email" name="email" id="email" required="required"/>
+</p>
+<p>
+<label>Password:</label>
+<input type="password" name="password" />
+</p>
+					
+<input type="submit" class="button" id="loginbutton" value="Login"/>
+</form>
