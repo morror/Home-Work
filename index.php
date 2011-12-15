@@ -9,7 +9,9 @@
 	
 	$date = array(
 		'start'=> '',
-		'registration' => '<form action="">
+		'registration' => '
+					<div class="form">					
+					<form action="">
 					<p>
 					<label>Username:</label>					
 					<input type="text" autofocus id="Username" name="Username"/>
@@ -28,8 +30,10 @@
 					</p>
 					
 					<input type="submit" class="button" id="submit" value="Create an account"/>
-					</form>',
-		'login' => '<form action="javascript:void(0);">
+					</form>
+					</div>',
+		'login' => '<div class="form">
+					<form action="javascript:void(0);">
 					<p>
 					<label>email:</label>
 					<input type="email" name="email" id="email" required="required"/>
@@ -40,7 +44,8 @@
 					</p>
 					
 					<input type="submit" class="button" id="loginbutton" value="Login"/>
-					</form>',
+					</form>
+					</div>',
 		
 	);	
 	
